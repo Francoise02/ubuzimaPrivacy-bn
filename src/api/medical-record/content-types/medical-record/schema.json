@@ -1,0 +1,53 @@
+{
+  "kind": "collectionType",
+  "collectionName": "medical_records",
+  "info": {
+    "singularName": "medical-record",
+    "pluralName": "medical-records",
+    "displayName": "medical_record",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "date": {
+      "type": "datetime",
+      "required": true
+    },
+    "symptoms": {
+      "type": "text",
+      "required": true
+    },
+    "prescribed_tests": {
+      "type": "text"
+    },
+    "other_tests": {
+      "type": "string"
+    },
+    "diagnosis": {
+      "type": "string",
+      "required": true
+    },
+    "additional_documents": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    },
+    "prescription": {
+      "type": "string",
+      "required": true
+    },
+    "patient": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::patient.patient",
+      "inversedBy": "medical_records"
+    }
+  }
+}

@@ -4,7 +4,7 @@ Ubuzima Privacy. A platform that facilitates information sharing accross registe
 
 ## Badges
 
-[![Github actions](https://github.com/Francoise02/ubuzimaPrivacy-bn/actions/workflows/githubActions.yml/badge.svg)](https://github.com/atlp-rwanda/elite-bn-fe/actions/workflows/githubActions.yml) [![Test Coverage](https://api.codeclimate.com/v1/badges/8b6f80920ac1be6c7fb0/test_coverage)](https://codeclimate.com/github/https://github.com/Francoise02/ubuzimaPrivacy-bn/test_coverage)
+(https://github.com/atlp-rwanda/elite-bn-fe/actions/workflows/githubActions.yml) [![Test Coverage](https://api.codeclimate.com/v1/badges/8b6f80920ac1be6c7fb0/test_coverage)](https://codeclimate.com/github/https://github.com/Francoise02/ubuzimaPrivacy-bn/test_coverage)
 [![Maintainability](https://api.codeclimate.com/v1/badges/8b6f80920ac1be6c7fb0/maintainability)](https://codeclimate.com/https://github.com/Francoise02/ubuzimaPrivacy-bn/maintainability)
 
 ## Description

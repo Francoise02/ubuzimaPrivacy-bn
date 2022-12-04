@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkubuzima_privacy=self.webpackChunkubuzima_privacy||[]).push([[92],{28465:(i,t,e)=>{e.r(t),e.d(t,{default:()=>a});var s=e(67294),E=e(68547),P=e.n(E),_=e(87751),n=e(67375);const a=()=>s.createElement(E.CheckPagePermissions,{permissions:_.Z.settings["api-tokens"].read},s.createElement(n.Z,null))}}]);

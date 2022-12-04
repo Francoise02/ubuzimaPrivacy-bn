@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "hospital_admins",
+  "info": {
+    "singularName": "hospital-admin",
+    "pluralName": "hospital-admins",
+    "displayName": "Hospital_admin",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "email": {
+      "type": "email",
+      "required": true
+    },
+    "password": {
+      "type": "password",
+      "required": true,
+      "minLength": 8
+    },
+    "hospital": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::hospital.hospital",
+      "inversedBy": "hospital_admin"
+    }
+  }
+}
